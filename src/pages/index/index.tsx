@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <View className='index'>
       <Text>Hello world!</Text>
-      <Button onClick={onClick}>Click me</Button>
+      <Button onClick={onClick} className='btn'>Click me</Button>
       <Text>You Are Good Person</Text>
       <View>{msg}</View>
     </View>
